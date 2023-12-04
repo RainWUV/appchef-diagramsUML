@@ -1,0 +1,51 @@
+# Caso de Uso: Simulação de Receita
+
+## Descrição
+
+O caso de uso "Simulação de Receita" descreve as interações entre o Chef e o sistema durante o processo de simulação de uma nova receita no aplicativo Chef.
+
+## Atores
+
+- Chef: Usuário do aplicativo Chef.
+
+## Pré-condições
+
+- O Chef está registrado e autenticado no sistema.
+
+## Fluxo Principal
+
+1. O Chef acessa a tela inicial do aplicativo.
+2. Na tela inicial, o Chef seleciona a opção "Simular Receita".
+3. O Chef preenche as informações da nova receita:
+   - Nome da receita.
+   - Tipo da receita (Sobremesa, Entrada, Prato Principal, Lanche).
+   - Número de pessoas servidas.
+   - Tipo de servir (Quente, Natural, Gelado).
+   - Lista de ingredientes.
+4. O sistema utiliza algoritmos de Inteligência Artificial para:
+   - Calcular a quantidade de ingredientes necessários.
+   - Determinar o tempo total de preparo.
+   - Descrever o modo de preparo.
+5. O Chef revisa e valida as informações geradas pelo sistema.
+6. O Chef salva a receita no sistema.
+
+## Fluxo Alternativo
+
+- No passo 5, se o Chef não concordar com as informações geradas, ele pode ajustar a receita e repetir o processo.
+
+## Pós-condições
+
+- A receita é salva no perfil do Chef.
+
+## Extensões
+
+1. Se o Chef desejar, ele pode:
+   - Avaliar a receita gerada com uma nota de 1 a 5 estrelas.
+   - Adicionar comentários validando a receita.
+
+2. Após executar a receita, o Chef pode:
+   - Anexar uma foto da receita executada.
+   - Compartilhar a receita nas redes sociais.
+
+
+
